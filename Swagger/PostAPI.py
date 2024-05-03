@@ -1,6 +1,6 @@
 import requests
 
-API = "http://localhost:8080/users"
+API = "https://fakerestapi.azurewebsites.net/api/v1/Activities"
 
 
 Payload = {
