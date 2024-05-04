@@ -9,7 +9,7 @@ URL = "https://reqres.in"
 #     "where": "this code file"
 # }
 
-# response = requests.get(url=URL+'/api/users', json=Payload)
+# response = requests.get(url=URL+'/api/users')
 
 json_file = open('./User.json')
 json_payload = json.load(json_file)
