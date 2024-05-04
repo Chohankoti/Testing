@@ -39,7 +39,7 @@ def test_GET_All_Users_Validation():
     assert response.status_code == 200
 
 
-def test_GET_By_ID_Validation():
+def test_GET_By_ID_User_Validation():
 
     Payload = Get_Payload()
 
